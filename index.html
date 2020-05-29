@@ -72,24 +72,18 @@
 
         // append/get elements to the DOM
         const canvas = document.getElementById("canvas");
-<<<<<<< HEAD
         var seconds = document.getElementById("countdown").textContent;
-=======
->>>>>>> e1fea535c90d4c13eeeaedfed70b94055f3f3605
         canvas.width = size; canvas.height = size;
         ctx = canvas.getContext("2d");
         labelContainer = document.getElementById("label-container");
         for (let i = 0; i < maxPredictions; i++) { // and class labels
             labelContainer.appendChild(document.createElement("div"));
         }
-<<<<<<< HEAD
         var countdown = setInterval(function() {
             seconds--;
             document.getElementById("countdown").textContent = seconds;
             if (seconds <= 0) clearInterval(countdown);
         }, 1000);
-=======
->>>>>>> e1fea535c90d4c13eeeaedfed70b94055f3f3605
     }
 
     async function loop(timestamp) {
