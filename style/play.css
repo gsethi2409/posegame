@@ -11,7 +11,7 @@
    body{
     font-size: 30px;
     font-family: monospace, "Helvetica Neue", Helvetica, Verdana, sans-serif;
-    background-color: #1abc9c;
+    background-color: #ffc400;
     text-align: center;
     color: #666;
    }
@@ -32,11 +32,11 @@
    
    .image{
     width: 28%;
-    border: 1.5px solid #ccc;
+    border: 1.5px solid rgb(227, 242, 253);
     padding: 10px;
     margin: 2% 1.5%;
     flex-grow: 1;
-    background-color: #ecf0f1;
+    background-color: #fff;
    }
    
    .image img{
